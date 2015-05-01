@@ -1,0 +1,48 @@
+(load "tutorial/scrape1")
+(in-ns 'tutorial.scrape1)
+*base-url* "https://news.ycombinator.com/"
+(hn-headlines)
+("A 'lorem ipsum' for images." "Google Reader Can Now Track Changes to Any Website - Even Without a Feed" "jQuery 1.4.1 Released" ... "More")
+(hn-points)
+... output ...
+(load "scrape2")
+(in-ns 'tutorial.scrape2)
+(hn-headlines-and-points)
+(load "scrape3")
+(in-ns 'tutorial.scrape3)
+(print-stories)
+(load "template1")
+(load "tutorial/template1")
+(load "tutorial/template")
+(load "tutorial/temp1")
+(load "tutorial/scrape1")
+(in-ns 'tutorial.scrape1)
+*base-url*
+(hn-headlines)
+(hn-points)
+(print-headlines-and-points)
+*base-url*
+(load "tutorial/scrape1")
+(load "scrape1")
+(in-ns 'tutorial.scrape1)
+*base-url*
+(hn-headlines)
+(load "scrape1")
+*base-url*
+(hn-headlines)
+(load "scrape1")
+*base-url*
+(hn-headlines)
+(load "scrape1")
+*base-url*
+(hn-headlines)
+(load "scrape1")
+(load "BestScrape")
+(load "scrape1")
+(hn-headlines)
+(hn-points)
+(load "scrape1")
+(hn-points)
+(load "scrape1")
+(hn-points)
+(print-headlines-and-points)
